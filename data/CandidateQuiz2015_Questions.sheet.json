@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "1",
+    "question": "I am the sitting governor of Louisiana. My given first name is Piyush, but you can call me:",
+    "image": "http://placekitten.com/200/250"
+  },
+  {
+    "id": "2",
+    "title": "2",
+    "question": "I am the former governor of Maryland. I signed laws making some undocumented immigrants eligible for in-state tuition and legalizing gay marriage. My name is:",
+    "image": "http://placekitten.com/200/250"
+  },
+  {
+    "id": "3",
+    "title": "3",
+    "question": "I’m Rhode Island’s governor. So was my dad. I used to be the Senate’s most liberal Republican. Then I became an independent. Now I’m running as a Democrat. I am:",
+    "image": "http://placekitten.com/200/250"
+  }
+]

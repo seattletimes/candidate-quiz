@@ -10,9 +10,32 @@
   <body>
 
     <responsive-child>
-      <!-- content goes here -->
+      <div class="question-box"></div>
     </responsive-child>
 
+    <script>
+      <% 
+        var quizData = {};
+        json.CandidateQuiz2015_Questions.forEach(function(q) {
+          quizData[q.id] = { 
+            "question": q.question,
+            "image": q.image
+          };
+        });
+
+        json.CandidateQuiz2015_Answers.forEach(function(a) {
+          var id = a.id;
+          if (!quizData[id].answers) { quizData[id].answers = [] }
+          var answer = { 
+            "answer": a.answer,
+            "correct": a.correct
+          };
+          quizData[id].answers.push(answer);
+        });
+      %>
+
+      var quizData = <%= JSON.stringify(quizData) %>
+    </script>
     <script src="app.js"></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_adFoot.html") : "" %>
