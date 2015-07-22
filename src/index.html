@@ -10,14 +10,18 @@
   <body>
 
     <responsive-child>
-      <div class="question-box"></div>
+      <div class="quiz-container">
+        <div class="quiz-box">
+          <div class="question-box"></div>
+        </div>
+      </div>
     </responsive-child>
 
     <script>
-      <% 
+      <%
         var quizData = {};
         json.CandidateQuiz2015_Questions.forEach(function(q) {
-          quizData[q.id] = { 
+          quizData[q.id] = {
             "question": q.question,
             "image": q.image
           };
@@ -26,7 +30,7 @@
         json.CandidateQuiz2015_Answers.forEach(function(a) {
           var id = a.id;
           if (!quizData[id].answers) { quizData[id].answers = [] }
-          var answer = { 
+          var answer = {
             "answer": a.answer,
             "correct": a.correct
           };
