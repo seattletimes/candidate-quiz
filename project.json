@@ -1,8 +1,8 @@
 {
   "s3": {
     "stage": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "inverse-incapability"
     },
     "live": {
       "bucket": "",
@@ -16,5 +16,6 @@
   "tags": [],
   "image": "http://seattletimes.com/art/ui/fb_icon_large.jpg",
   "production": false,
-  "embedded": true
+  "embedded": true,
+  "sheets": ["1n3NGVHx6IWmQNGGmogwFibhECHAKThZqg7PnV1v0_ds"]
 }

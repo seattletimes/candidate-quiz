@@ -1,9 +1,30 @@
-Question: {{question}}
-{{#answers}}
-  <p class="option">
-    <input type="radio" value="{{correct}}" name="answer" id="{{id}}">
-    <label for="{{id}}">{{answer}}</label>
-  </p>
-{{/answers}}
+<div class="inner">
 
-<button class="submit" disabled><i class="fa fa-check"></i> Submit</button>
+  <div class="title">Guess the candidate!</div>
+
+  <div class="inner-box">
+
+    <div class="img-class">
+      <div class="orig active"><img src="{{hintImage}}"></div>
+      <div class="hint-box"><button class="hint"><i class="fa fa-question-circle"></i>Hint</button></div>
+      <div class="actual"><img src="{{image}}"></div>
+    </div>
+
+    <div class="inner-text">
+      <div class="index"></div>
+      {{question}}
+
+      {{#answers}}
+        <p class="option">
+          <input type="radio" value="{{correct}}" name="answer" id="{{answer}}">
+          <label for="{{answer}}">{{answer}}</label>
+        </p>
+      {{/answers}}
+
+      <button class="submit" disabled><i class="fa fa-check"></i>
+      Submit</button>
+
+    </div>
+  </div>
+
+</div>
