@@ -15,7 +15,7 @@
   "slug": "",
   "tags": [],
   "image": "http://seattletimes.com/art/ui/fb_icon_large.jpg",
-  "production": false,
-  "embedded": true,
+  "production": true,
+  "embedded": false,
   "sheets": ["1n3NGVHx6IWmQNGGmogwFibhECHAKThZqg7PnV1v0_ds"]
 }

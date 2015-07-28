@@ -1,7 +1,9 @@
 
 <div class="inner">
 
-  <div class="inner-box">
+
+  <!-- <div class="inner-box"> -->
+    <a class="share-results"></a>
 
     <div class="results-text">
       <p class="result-name">You scored <span class="result" style="color: {{color}}">{{score}}/{{total}}</span>. Your level: <span class="result" style="color: {{color}}">{{title}}</span>.
@@ -14,9 +16,8 @@
     <table>
       {{#rows}}
       <tr>
-        <td class="mug"><img src="{{image}}"></td>
-        <td>{{name}} ({{party}})</td>
-        <td>{{summary}}</td>
+        <td class="mug"><img src="{{finalImage}}"></td>
+        <td><div class="cand-name">{{name}} ({{party}}):</div>{{summary}}</td>
       </tr>
       {{/rows}}
     </table>

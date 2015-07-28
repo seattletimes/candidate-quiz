@@ -10,13 +10,21 @@
   </head>
   <body>
 
-    <nav class="top-bar">
-      <a class="logo" href="http://seattletimes.com">
-        <img src="./assets/seattletimes.svg">
-      </a>
-    </nav>
+    <div class="outer">
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
-    <responsive-child>
+      <nav class="top-bar">
+        <a class="logo" href="http://seattletimes.com">
+          <img src="./assets/seattletimes.svg">
+        </a>
+      </nav>
+
+      <header>
+        <h1 class="title">Guess the candidates!</h1>
+        <p class="chatter">Think you know all the presidential candidates? Test your knowledge with <a href="#quiz">our quiz</a>.<br>
+        <a class="share-button"></a>
+      </header>
+
       <div class="quiz-container">
         <div class="quiz-header"></div>
           <div class="quiz-box">
@@ -84,7 +92,15 @@
       </div>
     </div>
 
-    </responsive-child>
+    <%= t.include("partials/_ad.html", { type: "bannerBottom" }) %>
+    <footer>
+      <a class="logo" href="http://seattletimes.com">
+        <img src="./assets/st-logo.png">
+      </a>
+      <a class="share-bottom"></a>
+    </footer>
+
+  </div>
 
     <script>
       <%
@@ -95,14 +111,15 @@
             "question": q.question,
             "image": q.image,
             "hintImage": q.hintimage,
+            "finalImage": q.finalimage,
             "party": q.party,
             "name": q.name,
             "summary": q.summary
           };
           rows.push({
+            "finalImage": q.finalimage,
             "name": q.name,
             "party": q.party,
-            "image": q.image,
             "summary": q.summary
           });
         });
