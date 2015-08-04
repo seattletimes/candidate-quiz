@@ -28,15 +28,15 @@
   {
     "id": "3",
     "title": "3",
-    "question": "Insert",
+    "question": "Who better to talk about me than me: “I’m like, a really smart person.” Despite calling Mexican immigrants rapists, “I think I’ll win the Hispanic vote.” And, “I’m worth MUCH more than $10 billion.” Yes, I’m the one, the only:",
     "hintimage": "./assets/TrumpSilo.jpg",
     "image": "./assets/TrumpRed.jpg",
     "finalimage": "./assets/TrumpBW.jpg",
-    "summary": "Insert",
-    "storyurl": "",
+    "summary": "He’s bombastic. He’s polarizing. He’s abrasive. He’s insulting. He’s full of himself. He’s a shameless self-promoter. And in a crowded race, he’s the one candidate who has made himself stand out so far. Trump, 69, is a real-estate developer, hotel and casino mogul and reality-TV personality. He has high name recognition – it helps when your name is plastered on a lot of buildings. He began showing an interest in politics when he toyed with a third-party presidential run in 2000. In 2011, he took up the “birther” cause, intimating that President Obama was not a natural-born U.S. citizen. Even after Obama publicly released his long-form Hawaii birth certificate, Trump has insisted he’s not convinced. As a 2016 candidate, Trump has offended many veterans by denigrating Sen. John McCain’s 5½ years as a POW who was tortured and held in solitary confinement. Trump risks alienating Hispanics, a large constituency coveted by any presidential candidate, by saying Mexican illegal immigrants are rapists and drug dealers – comments that cost him relationships with NBCUniversal, the PGA and other business interests. And yet, he has endeared himself to an energized slice of the GOP electorate: tea partyers and older, white Americans who feel angry, alienated and marginalized. They regard him as a truth-teller and a tough-minded alternative to career politicians – perhaps the only guy who’s making any sense. In early polling, he’s doing well in Iowa and leading in New Hampshire, despite offering little so far by way of actual policy. In the Republican debates, expect some candidates (Jeb Bush) to avoid rising to Trump’s bait, while others (Rick Perry, Lindsey Graham) may find it hard to resist. Expect Trump to suck the oxygen out of the room. And with his billions, expect him to stay in the race as long as it suits him.",
+    "storyurl": "www.seattletimes.com/nation-world/donald-trump-says-he-has-no-regrets-about-16-kickoff-speech/",
     "party": "R",
     "name": "Donald Trump",
-    "otherpossiblenameoptions": ""
+    "otherpossiblenameoptions": "Chris Christie, Carly Fiorina, Jeb Bush"
   },
   {
     "id": "4",
@@ -80,12 +80,12 @@
   {
     "id": "7",
     "title": "7",
-    "question": "",
+    "question": "I’m the former governor of Texas. I once shot a coyote while jogging – that’s right, I jog with a gun. I ran for president in 2012 – you might remember my debate stumble. This time around, I’m wearing glasses. I just challenged that wimp Donald Trump to a pull-up contest. I am:",
     "hintimage": "./assets/PerrySilo.jpg",
     "image": "./assets/PerryRed.jpg",
     "finalimage": "./assets/PerryBW.jpg",
-    "summary": "",
-    "storyurl": "",
+    "summary": "Perry, 65, was Texas’ governor for more than 14 ½ years. He stood out during the 2012 presidential campaign by displaying the swagger of a true Texan (he grew up on a cotton farm and has a degree in animal science from A&M) or that of a hotshot pilot (he flew C-130s in the Air Force.) However, the swagger gave way to a stumble during a GOP debate when he momentarily drew a blank on a question about federal agencies he’d eliminate. This time, he’s projecting more polish, ditching the cowboy boots and sporting glasses, though he did display a flash of machismo recently by challenging Donald Trump to a pull-up contest – Trump has said Perry lacks the “energy,” “brain power” and “toughness” to be president. Perry, in turn, has called Trump a “cancer on conservatism.” Perry has name recognition and conservative bona fides on issues such as Obamacare and homosexuality. But he’s rankled some social conservatives over issues such as an executive order in 2007 mandating HPV vaccinations for girls to prevent cancer, and extending in-state tuition to undocumented immigrants. In 2014, he was indicted by a grand jury in liberal Austin on two felony charges regarding his conduct in office; Perry has spent $2 million fighting the charges, and one has been dismissed. As for the coyote shooting, that’s a classic story of the old Rick Perry: The governor said he sometimes carries a .380 Ruger while jogging because he’s afraid of snakes. He was on a trail early one morning in 2010 when a coyote threatened his daughter’s Labrador puppy. Threat eliminated. “It was not in a lot of pain,” he said. “It pretty much went down at that particular juncture.” And yes, Perry has an A+ rating from the National Rifle Association.",
+    "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/can-perry-stand-out-in-2016-without-his-signature-swagger/",
     "party": "R",
     "name": "Rick Perry",
     "otherpossiblenameoptions": "Rick Santorum, Ted Cruz, Jeb Bush"
@@ -166,7 +166,7 @@
     "storyurl": "",
     "party": "R",
     "name": "Marco Rubio",
-    "otherpossiblenameoptions": ""
+    "otherpossiblenameoptions": "Ted Cruz, Bobby Jindal, Lincoln Chaffee"
   },
   {
     "id": "14",
@@ -236,15 +236,15 @@
   {
     "id": "19",
     "title": "19",
-    "question": "Insert",
+    "question": "I’m the governor of Ohio (the big Midwestern state that is key to any presidential election.) I was in the U.S. House before that, where I balanced the federal budget – no kidding! I’ve also hosted a show on Fox News. I’m:",
     "hintimage": "./assets/KasichSilo.jpg",
     "image": "./assets/KasichRed.jpg",
     "finalimage": "./assets/KasichBW.jpg",
-    "summary": "Insert",
-    "storyurl": "",
-    "party": "D",
+    "summary": "Kasich, 63, hates a deficit. A nine-term congressman, he was chairman of the House Budget Committee in the 1990s and the architect of 1997’s balanced (and ultimately, surplus) federal budget. He also chaired the panel that overhauled the welfare system, and he championed reforms in defense spending. As governor of Ohio since 2011, he has eliminated the state’s $8 billion budget shortfall and reduced taxes by $3 billion. \"He was Paul Ryan before Paul Ryan,\" says GOP uber-tax-crusader Grover Norquist. And yet he has been criticized as insufficiently conservative for progressive policies in areas such as education - and especially for expanding Ohio’s Medicaid program under Obamacare. He has also largely sidestepped his party’s culture wars (though he has signed into law restrictions on voting rights and abortion rights, and tried to reign in public-sector unions.) He’s blunt, he can be abrasive, and he prefers not to toe a party line. \"John is a breath of fresh air,\" says former White House press secretary Ari Fleischer. \"He is a different kind of Republican. Albeit a staunch conservative, he is known to take unorthodox stands and think independently.\" But he’s polling right now at around 5 percent.",
+    "storyurl": "http://www.seattletimes.com/nation-world/ohio-gov-kasich-is-16th-notable-entry-into-gop-race/",
+    "party": "R",
     "name": "John Kasich",
-    "otherpossiblenameoptions": "Martin O'Malley, Rick Santorum, Ben Carson"
+    "otherpossiblenameoptions": "Martin O'Malley, Lindsey Graham, Ben Carson"
   },
   {
     "id": "20",
@@ -271,5 +271,18 @@
     "party": "D",
     "name": "Lincoln Chafee",
     "otherpossiblenameoptions": "John Kasich, Rick Santorum, Ben Carson"
+  },
+  {
+    "id": "22",
+    "title": "22",
+    "question": "I’m a former one-term governor of Virginia and former Republican National Committee chairman. I’m last to enter the race, but I’m unimpressed with the other candidates and think I’m more qualified. I also ran for president in 2007, so surely you remember me. Or, um, perhaps not. I’m:",
+    "hintimage": "",
+    "image": "",
+    "finalimage": "",
+    "summary": "Gilmore, 65, is the 17th Republican to run. And he’s the longest of the long-shots, without the name recognition or money of others. He was an Army intelligence officer during the Cold War and has foreign-policy expertise, and was Virginia’s governor for one term, 1998-2002. (Term limits prevented him from running again.) He briefly ran for president in 2007 but didn’t raise much money. In 2008, he lost a Senate race. With such a vast field, why is he running? From his website: “That’s a fair question, and deserves a straight answer. I’m a candidate for president because our current Washington leadership is guiding America on a path to decline and I can reverse that decline. … I have a vision for a different America. One that will return America’s policies of a dynamic entrepreneurial free market economy and a policy of peace through strength for our national security.”",
+    "storyurl": "http://www.seattletimes.com/nation-world/former-virginia-gov-jim-gilmore-plans-presidential-run/",
+    "party": "R",
+    "name": "Jim Gilmore",
+    "otherpossiblenameoptions": "Ron Paul, Ralph Nader, Rick Santorum"
   }
 ]

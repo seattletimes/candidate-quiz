@@ -3,7 +3,7 @@
     "title": "Politics expert",
     "min": "16",
     "max": "21",
-    "description": "Description"
+    "description": "Next thing we know, YOU'LL be running for president."
   },
   {
     "title": "Sometime politics reader",
@@ -12,15 +12,15 @@
     "description": "Description"
   },
   {
-    "title": "Recent transplant",
+    "title": "Political novice",
     "min": "6",
     "max": "10",
     "description": "You might pay more attention to Seattle's Capitol Hill than to DC's."
   },
   {
-    "title": "Tourist",
+    "title": "Civics-class dropout",
     "min": "0",
     "max": "5",
-    "description": "Description"
+    "description": "You might need to head back to civics class."
   }
 ]

@@ -56,19 +56,19 @@
   {
     "id": "3",
     "title": "3",
-    "answer": "N",
+    "answer": "Chris Christie",
     "correct": ""
   },
   {
     "id": "3",
     "title": "3",
-    "answer": "N",
+    "answer": "Carly Fiorina",
     "correct": ""
   },
   {
     "id": "3",
     "title": "3",
-    "answer": "N",
+    "answer": "Jeb Bush",
     "correct": ""
   },
   {
@@ -260,7 +260,7 @@
   {
     "id": "11",
     "title": "11",
-    "answer": "Lincoln Chaffee",
+    "answer": "Lincoln Chafee",
     "correct": ""
   },
   {
@@ -296,19 +296,19 @@
   {
     "id": "13",
     "title": "13",
-    "answer": "N",
+    "answer": "Ted Cruz",
     "correct": ""
   },
   {
     "id": "13",
     "title": "13",
-    "answer": "N",
+    "answer": "Bobby Jindal",
     "correct": ""
   },
   {
     "id": "13",
     "title": "13",
-    "answer": "N",
+    "answer": "Lincoln Chafee",
     "correct": ""
   },
   {
@@ -501,6 +501,30 @@
     "id": "21",
     "title": "21",
     "answer": "Ben Carson",
+    "correct": ""
+  },
+  {
+    "id": "22",
+    "title": "22",
+    "answer": "Jim Gilmore",
+    "correct": "x"
+  },
+  {
+    "id": "22",
+    "title": "22",
+    "answer": "Ron Paul",
+    "correct": ""
+  },
+  {
+    "id": "22",
+    "title": "22",
+    "answer": "Ralph Nader",
+    "correct": ""
+  },
+  {
+    "id": "22",
+    "title": "22",
+    "answer": "Rick Santorum",
     "correct": ""
   }
 ]

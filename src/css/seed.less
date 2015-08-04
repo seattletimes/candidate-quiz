@@ -103,7 +103,7 @@ body {
         flex: 0 0 50%;
       }
       img {
-        width: 150px;
+        width: 200px;
         content-align:center;
         @media @mobile {
           width: 100px;
@@ -112,18 +112,18 @@ body {
         }
       }
       .orig {
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 200px;
         display: none;
         &.active {
           display: block;
         }
       }
       .actual {
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 200px;
         display: none;
         &.active {
           display: block;
@@ -131,6 +131,7 @@ body {
       }
       .final {
         display:block;
+        vertical-align: top;
       }
     }
   }
@@ -199,18 +200,6 @@ button {
   -webkit-font-smoothing: antialiased;
   transition: background 0.2s linear;
 
-  // @media @break {
-  //   padding: 8px 20px 10px 20px;
-  // }
-
-  &.active {
-    background: @df-blue;
-    cursor: pointer;
-
-    &:hover {
-      background: darken(@df-blue, 10%);
-    }
-  }
 }
 
 .index {
@@ -274,6 +263,8 @@ label {
 .dont-miss {
   .display-flex;
   .flex-wrap(wrap);
+  max-width: 620px;
+  margin: auto;
   margin-bottom: 20px;
 
   .story {
@@ -435,25 +426,31 @@ footer {
   }
 }
 
-.hint {
+.hint{
   margin-right:15px;
-  // @media @mobile {
-    // display: block;
-    // margin: auto;
-    // margin-top: 10px;
-  // }
   .fa {
     padding-right: 20px;
   }
   position: relative;
+  &:hover {
+    background: darken(@df-blue, 10%);
+  }
   &.active {
-    display: none;
+    background: @df-border-gray;
+    cursor: auto;
   }
   background: @df-blue;
   cursor: pointer;
+}
 
-  &:hover {
-    background: darken(@df-blue, 10%);
+.submit, .next {
+  &.active {
+    background: @df-blue;
+    cursor: pointer;
+
+    &:hover {
+      background: darken(@df-blue, 10%);
+    }
   }
 }
 
@@ -475,4 +472,10 @@ footer {
     // padding: 0;
     // margin: 0;
   }
+}
+
+.mug {
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
 }

@@ -10,16 +10,16 @@
       <p class="result-description">{{description}}
     <div>
 
-    {{name}}
-    {{party}}
-
+    <div title-dem>Democratic candidates:</div>
     <table>
       {{#rows}}
       <tr>
-        <td class="mug"><img src="{{finalImage}}"></td>
-        <td><div class="cand-name">{{name}} ({{party}}):</div>{{summary}}</td>
+        <div class="mug"><img src="{{finalImage}}"></div>
+        <!-- <td><div class="cand-name">{{name}} ({{party}})</div></td> -->
       </tr>
       {{/rows}}
     </table>
+    <div title-dem>Republican candidates:</div>
+
 
 </div>
