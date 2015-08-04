@@ -1,26 +1,26 @@
 [
   {
-    "title": "Local politics expert",
-    "min": "3",
-    "max": "3",
+    "title": "Politics expert",
+    "min": "16",
+    "max": "21",
     "description": "Description"
   },
   {
     "title": "Sometime politics reader",
-    "min": "2",
-    "max": "2",
+    "min": "11",
+    "max": "15",
     "description": "Description"
   },
   {
     "title": "Recent transplant",
-    "min": "1",
-    "max": "1",
-    "description": "Description\n"
+    "min": "6",
+    "max": "10",
+    "description": "You might pay more attention to Seattle's Capitol Hill than to DC's."
   },
   {
     "title": "Tourist",
     "min": "0",
-    "max": "0",
+    "max": "5",
     "description": "Description"
   }
 ]
