@@ -20,10 +20,17 @@
       </nav>
 
       <header>
-        <h1 class="title">Guess the candidates!</h1>
-        <p class="chatter">Think you know all the presidential candidates? Test your knowledge with <a href="#quiz">our quiz</a>.<br>
+        <div class="title">
+          <%= t.include("assets/candidateQuizBanner.svg") %>
+        </div>
+        <div class="chatter">Think you know all the presidential candidates?
+          <div>Test your knowledge with our quiz.</div></div>
         <a class="share-button"></a>
       </header>
+
+      <div class="top-graphic">
+        <img src="./assets/candidateQuizLede.png"></img>
+      </div>
 
       <div class="quiz-container">
         <div class="quiz-header"></div>
@@ -114,13 +121,15 @@
             "finalImage": q.finalimage,
             "party": q.party,
             "name": q.name,
-            "summary": q.summary
+            "summary": q.summary,
+            "storyurl": q.storyurl
           };
           rows.push({
             "finalImage": q.finalimage,
             "name": q.name,
             "party": q.party,
-            "summary": q.summary
+            "summary": q.summary,
+            "storyurl": q.storyurl
           });
         });
 

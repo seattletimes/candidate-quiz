@@ -84,6 +84,7 @@ $(".quiz-container").on("click", ".submit", function() {
   answerData.image = quizData[id].finalImage;
   answerData.summary = quizData[id].summary;
   answerData.name = quizData[id].name;
+  answerData.storyurl = quizData[id].storyurl;
   track("interactive", "pronunciation-quiz", "question-" + id);
   track("interactive", "pronunciation-quiz", "correctness-" + correct);
 

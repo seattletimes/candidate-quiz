@@ -4,26 +4,29 @@
 
     <div class="img-class">
       <div class="orig active"><img src="{{hintImage}}"></div>
-      <div class="hint-box"><button class="hint"><i class="fa fa-question-circle"></i>Hint</button></div>
       <div class="actual"><img src="{{image}}"></div>
     </div>
 
     <div class="inner-text">
 
-      <div class="title">Who am I?</div>
+      <div class="question-title">Who am I?</div>
 
       <div class="index"></div>
       {{question}}
 
-      {{#answers}}
-        <p class="option">
-          <input type="radio" value="{{correct}}" name="answer" id="{{answer}}">
-          <label for="{{answer}}">{{answer}}</label>
-        </p>
-      {{/answers}}
+      <div class="option-box">
+        {{#answers}}
+          <div class="option">
+            <input type="radio" value="{{correct}}" name="answer" id="{{answer}}">
+            <label for="{{answer}}">{{answer}}</label>
+          </div>
+        {{/answers}}
+      </div>
 
-      <button class="submit" disabled><i class="fa fa-check"></i>
-      Submit</button>
+      <div class="button-box">
+        <button class="hint"><i class="fa fa-question-circle"></i>Hint</button>
+        <button class="submit" disabled><i class="fa fa-check"></i>Submit</button>
+      </div>
 
     </div>
   </div>

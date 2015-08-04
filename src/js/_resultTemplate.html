@@ -12,7 +12,8 @@
         <span class="highlight wrong">{{^hooray}}Wrong.{{/hooray}}</span>
       </div>
 
-      <div class="candidate-info">{{name}}: {{summary}}</div>
+      <div class="candidate-info"><div class="cand-name">{{name}}: </div>{{summary}}
+      {{#storyurl}}<p><a href="{{storyurl}}">See related story</a></p>{{/storyurl}}</div>
       <button class="next active">Next question <i class="fa fa-arrow-right"></i></button>
 
     <div>
