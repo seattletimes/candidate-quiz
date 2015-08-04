@@ -11,7 +11,7 @@
   <body>
 
     <div class="outer">
-      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+      <div class="top ad"><%= t.include("partials/_ad.html", { type: "banner" }) %></div>
 
       <nav class="top-bar">
         <a class="logo" href="http://seattletimes.com">
@@ -41,10 +41,7 @@
       </div>
 
       <div class="credits">
-        Something by <span class="credit-name">Insert names</span> &bull; Quiz and web development by <span class="credit-name">Insert name</span>
-      </div>
-      <div class="sources">
-        Sources: <span class="credit-name">Seattle Times reporting</span>
+        Quiz by <span class="credit-name">Gina Cole and tktktk</span> &bull; Graphics by <span class="credit-name">Frank Mina</span> &bull; Web development by <span class="credit-name">Emma O'Neill</span>
       </div>
 
       <div class="thin-div">
@@ -99,15 +96,16 @@
       </div>
     </div>
 
-    <%= t.include("partials/_ad.html", { type: "bannerBottom" }) %>
+    <div class="ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %></div>
+
+  </div>
+    
     <footer>
       <a class="logo" href="http://seattletimes.com">
         <img src="./assets/st-logo.png">
       </a>
       <a class="share-bottom"></a>
     </footer>
-
-  </div>
 
     <script>
       <%
