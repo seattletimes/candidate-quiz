@@ -2,7 +2,8 @@
 <div class="inner-box">
 
     <div class="img-class final">
-      <img src="{{image}}">
+      {{#storyurl}}<a href="{{storyurl}}" target="_blank"><img src="{{image}}"></a>{{/storyurl}}
+      {{^storyurl}}<img src="{{image}}">{{/storyurl}}
     </div>
 
     <div class="inner">
