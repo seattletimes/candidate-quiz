@@ -1,21 +1,22 @@
 require("./lib/social");
 require("./lib/ads");
 var track = require("./lib/tracking");
+
 var $ = require("jquery");
-var ich = require("icanhaz");
-var questionTemplate = require("./_questionTemplate.html");
-var resultTemplate = require("./_resultTemplate.html");
-var overviewTemplate = require("./_overviewTemplate.html");
 var Share = require("share");
 var shuffle = require("lodash.shuffle");
+
+var ich = require("icanhaz");
+var questionTemplate = require("./_questionTemplate.html");
+ich.addTemplate("questionTemplate", questionTemplate);
+var resultTemplate = require("./_resultTemplate.html");
+ich.addTemplate("resultTemplate", resultTemplate);
+var overviewTemplate = require("./_overviewTemplate.html");
+ich.addTemplate("overviewTemplate", overviewTemplate);
 
 var score = 0;
 var id = 1;
 var total = 0;
-
-ich.addTemplate("questionTemplate", questionTemplate);
-ich.addTemplate("resultTemplate", resultTemplate);
-ich.addTemplate("overviewTemplate", overviewTemplate);
 
 new Share(".share-button", {
   description: "Think you know all the presidential candidates? Test your knowledge with the Seattle Times.",
@@ -45,7 +46,7 @@ $(".quiz-container").on("click", ".next", function() {
   window.location = "#quiz";
   if (id < Object.keys(quizData).length) {
     // move on to next question
-    id += 1;
+    id++;
     showQuestion(id);
     $(".next").removeClass("active");
     $(".next").attr("disabled", true);
@@ -93,7 +94,9 @@ $(".quiz-container").on("click", ".submit", function() {
 var calculateResult = function() {
   for (var index in resultsData) {
     var result = resultsData[index];
-    if (score >= result.min && score <= result.max) {
+    //move on if we don't match this category
+    if (score < result.min * 1 || score > result.max * 1) continue;
+    
     result.score = score;
     // display result
     result.score = score;
@@ -123,20 +126,18 @@ var calculateResult = function() {
     window.location = "#quiz";
 
     new Share(".share-results", {
-    description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates?",
-      ui: {
-        flyout: "bottom right"
-      },
-      networks: {
-        email: {
-          description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates? " + window.location
+      description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates?",
+        ui: {
+          flyout: "bottom right"
+        },
+        networks: {
+          email: {
+            description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates? " + window.location
+          }
         }
       }
-    });
-    }
+    );
   }
 };
 
 showQuestion(id);
-
-track("quiz-loaded");
