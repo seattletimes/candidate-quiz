@@ -19,7 +19,7 @@
   // margin-top: 100px;
 
   .quiz-header, .quiz-footer {
-    margin: 2em auto 1em;
+    margin: 2em auto;
     position: relative;
     border-bottom: thin solid @df-dark-gray;
     max-width: 900px;
@@ -89,7 +89,6 @@ body {
     font-size: 22px;
     text-transform: uppercase;
     @media @mobile {
-      font-size: 20px;
       padding: 0;
       text-align: center;
       padding-top: 10px;
@@ -277,8 +276,8 @@ label {
 .credits, .sources {
   font-size: 0.8em;
   text-align: center;
-  padding: 15px;
-  padding-bottom: 0;
+  padding: 0 15px 8px 15px;
+
   @media @tablet {
     margin-bottom: 0;
   }
@@ -509,7 +508,7 @@ footer {
     padding-bottom: 15px;
     @media @mobile {
       margin: 0;
-      padding: 0;
+      padding: 8px 0;
     }
   }
   .flex-wrap(wrap);
