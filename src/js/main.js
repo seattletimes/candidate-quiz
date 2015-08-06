@@ -1,7 +1,6 @@
 require("./lib/social");
 require("./lib/ads");
 var track = require("./lib/tracking");
-require("component-responsive-frame/child");
 var $ = require("jquery");
 var ich = require("icanhaz");
 var questionTemplate = require("./_questionTemplate.html");
@@ -11,7 +10,7 @@ var Share = require("share");
 var shuffle = require("lodash.shuffle");
 
 var score = 0;
-var id = 21;
+var id = 1;
 var total = 0;
 
 ich.addTemplate("questionTemplate", questionTemplate);
@@ -19,48 +18,41 @@ ich.addTemplate("resultTemplate", resultTemplate);
 ich.addTemplate("overviewTemplate", overviewTemplate);
 
 new Share(".share-button", {
-  description: "Think you know all the presidential candidates? Test your knowledge with our quiz.",
+  description: "Think you know all the presidential candidates? Test your knowledge with the Seattle Times.",
   // image: "http://projects.seattletimes.com/2015/pronunciation-quiz/assets/fb_sequim.JPG",
   ui: {
     flyout: "top center"
   },
   networks: {
     email: {
-      description: "Think you know all the presidential candidates? Test your knowledge with our quiz. http://apps-stage.seattletimesdata.com/extensive-voodoo/"
+      description: "Think you know all the presidential candidates? Test your knowledge with the Seattle Times. " + window.location
     }
   }
 });
 
-var watchInput = function() {
-// show submit button when answer is selected
-  $(".quiz-box").on("click", "input", (function(){
-    $(".submit").addClass("active");
-    $(".submit").attr("disabled", false);
-  }));
-};
+$(".quiz-box").on("click", "input", (function(){
+  $(".submit").addClass("active");
+  $(".submit").attr("disabled", false);
+}));
 
-var watchHint = function() {
-// show real image when hint is selected
-  $(".quiz-box").on("click", ".hint", (function(){
-      $(".actual").addClass("active");
-      $(".hint").addClass("active");
-      $(".orig").removeClass("active");
-  }));
-};
+$(".quiz-box").on("click", ".hint", function() {
+  $(".actual").addClass("active");
+  $(".hint").addClass("active");
+  $(".orig").removeClass("active");
+});
 
-var watchNext = function() {
-  $(".next").click(function() {
-    if (id < Object.keys(quizData).length) {
-      // move on to next question
-      id += 1;
-      showQuestion(id);
-      $(".next").removeClass("active");
-      $(".next").attr("disabled", true);
-    } else {
-      calculateResult();
-    }
-  });
-};
+$(".quiz-container").on("click", ".next", function() {
+  window.location = "#quiz";
+  if (id < Object.keys(quizData).length) {
+    // move on to next question
+    id += 1;
+    showQuestion(id);
+    $(".next").removeClass("active");
+    $(".next").attr("disabled", true);
+  } else {
+    calculateResult();
+  }
+});
 
 var showQuestion = function(questionId) {
   //create new question from template
@@ -95,8 +87,7 @@ $(".quiz-container").on("click", ".submit", function() {
   if (id == Object.keys(quizData).length) {
     $(".next").html("See results");
   }
-
-  watchNext();
+  window.location = "#quiz";
 });
 
 var calculateResult = function() {
@@ -116,7 +107,20 @@ var calculateResult = function() {
 
     result.total = total;
     result.rows = rows;
+    var nameSort = (a, b) => {
+      a = a.name.split(" ").pop();
+      b = b.name.split(" ").pop();
+      if (a < b) return -1;
+      if (b < a) return 1;
+      return 0;
+    }
+    var dem = rows.filter(c => c.party == "D").sort(nameSort);
+    var rep = rows.filter(c => c.party == "R").sort(nameSort);
+    result.dem = dem;
+    result.rep = rep;
+
     $(".question-box").html(ich.overviewTemplate(result));
+    window.location = "#quiz";
 
     new Share(".share-results", {
     description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates?",
@@ -125,7 +129,7 @@ var calculateResult = function() {
       },
       networks: {
         email: {
-          description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates?"
+          description: "I scored " + result.score + "/" + result.total + "! Think you know all the presidential candidates? " + window.location
         }
       }
     });
@@ -134,7 +138,5 @@ var calculateResult = function() {
 };
 
 showQuestion(id);
-watchInput();
-watchHint();
 
 track("quiz-loaded");

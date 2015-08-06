@@ -1,0 +1,30 @@
+[
+  {
+    "title": "http://www.seattletimes.com/seattle-news/politics/democrats-far-behind-gop-in-raising-money-for-16-super-pacs/",
+    "link": "http://www.seattletimes.com/seattle-news/politics/democrats-far-behind-gop-in-raising-money-for-16-super-pacs/",
+    "img": "./assets/superPAC_tzr.jpg",
+    "type": "Super PACs",
+    "description": "Money in politics"
+  },
+  {
+    "title": "http://projects.seattletimes.com/2015/pronunciation-quiz",
+    "link": "http://projects.seattletimes.com/2015/pronunciation-quiz",
+    "img": "./assets/quiz_teaser.jpg",
+    "type": "Pronunciation quiz",
+    "description": "Are you a lifetime Washingtonian?"
+  },
+  {
+    "title": "http://www.seattletimes.com/category/election-2015",
+    "link": "http://www.seattletimes.com/category/election-2015",
+    "img": "./assets/election2015_tzr.jpg",
+    "type": "Election 2015 ",
+    "description": "Stay in the loop for this year’s election"
+  },
+  {
+    "title": "http://projects.seattletimes.com/2015/seahawks-personality-quiz/",
+    "link": "http://projects.seattletimes.com/2015/seahawks-personality-quiz/",
+    "img": "./assets/seahawks_quiz.JPG",
+    "type": "Personality quiz",
+    "description": "Which Seahawk are you?"
+  }
+]

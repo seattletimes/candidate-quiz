@@ -5,16 +5,16 @@
       "path": "inverse-incapability"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/candidate-quiz"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Who are the candidates?",
+  "description": "Think you know all the presidential candidates? Test your knowledge.",
+  "url": "http://projects.seattletimes.com/2015/candidate-quiz/",
   "slug": "",
-  "tags": [],
-  "image": "http://seattletimes.com/art/ui/fb_icon_large.jpg",
+  "tags": ["politics"],
+  "image": "assets/candidateQuizSecondary.png",
   "production": true,
   "embedded": false,
   "sheets": ["1n3NGVHx6IWmQNGGmogwFibhECHAKThZqg7PnV1v0_ds"]

@@ -10,7 +10,6 @@
   </head>
   <body>
 
-    <div class="outer">
       <div class="top ad"><%= t.include("partials/_ad.html", { type: "banner" }) %></div>
 
       <nav class="top-bar">
@@ -19,20 +18,20 @@
         </a>
       </nav>
 
+      <div class="top-graphic">
+        <img class="long" src="./assets/candidateQuizLede.png"></img>
+        <img class="short" src="./assets/candidateQuizSecondary.png"></img>
+      </div>
+
       <header>
         <div class="title">
-          <%= t.include("assets/candidateQuizBanner.svg") %>
+          <img src="./assets/candidateQuizBannerBlue.jpg"></img>
         </div>
-        <div class="chatter">Think you know all the presidential candidates?
-          <div>Test your knowledge with our quiz.</div></div>
+        <div class="chatter">Are you good with names at parties? Because we've got a lot of names and two parties here. How many of these folks can you name?</div>
         <a class="share-button"></a>
       </header>
 
-      <div class="top-graphic">
-        <img src="./assets/candidateQuizLede.png"></img>
-      </div>
-
-      <div class="quiz-container">
+      <div class="quiz-container" id="quiz">
         <div class="quiz-header"></div>
           <div class="quiz-box">
             <div class="question-box"></div>
@@ -41,65 +40,16 @@
       </div>
 
       <div class="credits">
-        Quiz by <span class="credit-name">Gina Cole and tktktk</span> &bull; Graphics by <span class="credit-name">Frank Mina</span> &bull; Web development by <span class="credit-name">Emma O'Neill</span>
+        Quiz by <span class="credit-name">Gina Cole and Greg Rasa</span> &bull; Graphics by <span class="credit-name">Frank Mina</span> &bull; Web development by <span class="credit-name">Emma O'Neill</span>
       </div>
 
       <div class="thin-div">
         <div class="center">Don't Miss</div>
       </div>
 
-    <div class="dont-miss">
-
-      <div class="story">
-        <div class="padded">
-          <a href="http://projects.seattletimes.com/2015/seahawks-personality-quiz/">
-            <img src="./assets/seahawks_quiz.JPG"></img>
-          </a>
-            <div class="small">Personality quiz</div>
-          <a href="http://projects.seattletimes.com/2015/seahawks-personality-quiz/">
-            <div>Which Seahawk are you?</div>
-          </a>
-        </div>
-      </div>
-      <div class="story">
-        <div class="padded">
-        <a href="http://www.seattletimes.com/photo-video/art-of-movement-competes-in-breakdancing-battle/">
-          <img src="./assets/breakin_tzr.jpeg"></img>
-        </a>
-          <div class="small">Video</div>
-        <a href="http://www.seattletimes.com/photo-video/art-of-movement-competes-in-breakdancing-battle/">
-          <div>Breakin': Art of Movement competes in breakdancing battle</div>
-        </a>
-        </div>
-      </div>
-      <div class="story">
-        <div class="padded">
-        <a href="http://projects.seattletimes.com/2015/seattle-architecture-quiz/">
-          <img src="./assets/architecture_quiz.JPG"></img>
-        </a>
-          <div class="small">Photo quiz</div>
-        <a href="http://projects.seattletimes.com/2015/seattle-architecture-quiz/">
-          <div>How well do you know Seattle's architecture?</div>
-        </a>
-        </div>
-      </div>
-      <div class="story">
-        <div class="padded">
-        <a href="http://www.seattletimes.com/seattle-news/data/does-everyone-in-seattle-drive-a-subaru/">
-          <img src="./assets/subaru.jpg"></img>
-        </a>
-          <div class="small">FYI Guy</div>
-        <a href="http://www.seattletimes.com/seattle-news/data/does-everyone-in-seattle-drive-a-subaru/">
-          <div>Does everyone in Seattle drive a Subaru?</div>
-        </a>
-        </div>
-      </div>
-    </div>
-
+      <%= t.include("js/_dontMiss.html") %>
     <div class="ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %></div>
 
-  </div>
-    
     <footer>
       <a class="logo" href="http://seattletimes.com">
         <img src="./assets/st-logo.png">
@@ -145,6 +95,7 @@
       var quizData = <%= JSON.stringify(quizData) %>
       var rows = <%= JSON.stringify(rows) %>
       var resultsData = <%= JSON.stringify(json.CandidateQuiz2015_Results) %>
+      var dontMissData = <%= JSON.stringify(json.CandidateQuiz2015_DontMiss) %>
     </script>
     <script src="app.js"></script>
     <% if (json.project.production) { %>

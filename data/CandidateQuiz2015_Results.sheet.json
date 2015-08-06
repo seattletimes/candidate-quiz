@@ -9,13 +9,13 @@
     "title": "Sometime politics reader",
     "min": "11",
     "max": "15",
-    "description": "Description"
+    "description": "You're clearly paying attention, but you're no DC insider."
   },
   {
     "title": "Political novice",
     "min": "6",
     "max": "10",
-    "description": "You might pay more attention to Seattle's Capitol Hill than to DC's."
+    "description": "Maybe you've been paying more attention to Seattle's Capitol Hill than to DC's."
   },
   {
     "title": "Civics-class dropout",

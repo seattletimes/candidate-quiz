@@ -3,23 +3,32 @@
 
 
   <!-- <div class="inner-box"> -->
-    <a class="share-results"></a>
 
     <div class="results-text">
       <p class="result-name">You scored <span class="result" style="color: {{color}}">{{score}}/{{total}}</span>. Your level: <span class="result" style="color: {{color}}">{{title}}</span>.
       <p class="result-description">{{description}}
     <div>
 
-    <div title-dem>Democratic candidates:</div>
+    <a class="share-results"></a>
+
+    <h2>Answer key:</h2>
+
+    <div class="title-party">Democratic candidates</div>
     <table>
-      {{#rows}}
+      {{#dem}}
       <tr>
-        <div class="mug"><img src="{{finalImage}}"></div>
+        <div class="mug"><img src="{{finalImage}}">{{name}}</div>
         <!-- <td><div class="cand-name">{{name}} ({{party}})</div></td> -->
       </tr>
-      {{/rows}}
+      {{/dem}}
     </table>
-    <div title-dem>Republican candidates:</div>
-
-
+    <div class="title-party">Republican candidates</div>
+    <table>
+      {{#rep}}
+      <tr>
+        <div class="mug"><img src="{{finalImage}}">{{name}}</div>
+        <!-- <td><div class="cand-name">{{name}} ({{party}})</div></td> -->
+      </tr>
+      {{/rep}}
+    </table>
 </div>

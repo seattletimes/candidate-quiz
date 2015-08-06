@@ -8,13 +8,18 @@
     <div class="inner">
 
       <div class="highlight">
-        <span class="highlight correct">{{#hooray}}Right!{{/hooray}}</span>
-        <span class="highlight wrong">{{^hooray}}Wrong.{{/hooray}}</span>
+        <span class="highlight correct">{{#hooray}}<i class="fa fa-check-square-o"></i>
+Right!{{/hooray}}</span>
+        <span class="highlight wrong">{{^hooray}}<i class="fa fa-times"></i>
+Wrong.{{/hooray}}</span>
       </div>
 
-      <div class="candidate-info"><div class="cand-name">{{name}}: </div>{{summary}}
-      {{#storyurl}}<p><a href="{{storyurl}}">See related story</a><i class="fa fa-long-arrow-right"></i>
-</p>{{/storyurl}}</div>
+      <div class="candidate-info"><div class="cand-name">{{name}} </div>{{summary}}
+      {{#storyurl}}<p>
+        <a href="{{storyurl}}" target="_blank">
+          See related story <i class="fa fa-long-arrow-right"></i>
+        </a>
+      {{/storyurl}}</div>
       <button class="next active">Next question <i class="fa fa-arrow-right"></i></button>
 
     <div>

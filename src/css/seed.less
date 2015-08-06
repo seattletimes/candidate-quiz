@@ -27,12 +27,18 @@
 }
 
 body {
+  max-width: 1600px;
   font-family: @df-sans;
+  margin: auto;
+
+  .title-party {
+    font-weight: bold;
+    font-size: 20px;
+  }
 }
 
-.outer {
-  max-width: 1200px;
-  margin: auto;
+.ad {
+  text-align: center;
 }
 
 .title {
@@ -53,8 +59,19 @@ body {
 }
 
 .top-graphic {
-  max-width: 1200px;
-  margin: auto;
+  margin: 12px auto 0px;
+  text-align: center;
+  .short {
+    display: none;
+  }
+  @media @mobile {
+    .short {
+      display: block;
+    }
+    .long {
+      display:none;
+    }
+  }
 }
 
 .quiz-box {
@@ -93,15 +110,18 @@ body {
     }
 
     .img-class {
-      flex: 0 0 30%;
-      // flex: 0 0 220px;
-      margin: auto;
+      vertical-align: top;
+      // flex: 0 0 30%;
+      flex: 0 0 260px;
+      // margin: auto;
       .inner-text {
         flex: 1 1 0%;
+        // flex: 0 0 50%;
       }
-      padding-left: 30px;
-      padding-right: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
       @media @mobile {
+        margin: auto;
         padding-left: 0px;
         padding-right: 0px;
         flex: 0 0 50%;
@@ -116,18 +136,18 @@ body {
         }
       }
       .orig {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 200px;
+        // margin-left: 20px;
+        // margin-right: 20px;
+        // width: 200px;
         display: none;
         &.active {
           display: block;
         }
       }
       .actual {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 200px;
+        // margin-left: 20px;
+        // margin-right: 20px;
+        // width: 200px;
         display: none;
         &.active {
           display: block;
@@ -135,12 +155,12 @@ body {
       }
       .final {
         display:block;
-        vertical-align: top;
       }
     }
   }
   .highlight {
     color: red;
+    font-size: 30px;
     @media @mobile {
       padding-top: 20px;
     }
@@ -204,6 +224,13 @@ button {
   -webkit-font-smoothing: antialiased;
   transition: background 0.2s linear;
 
+  .fa {
+    padding-right: 12px;
+  }
+
+  @media @mobile {
+    padding: 12px;
+  }
 }
 
 .index {
@@ -244,7 +271,7 @@ label {
 .credits, .sources {
   font-size: 0.8em;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   padding-bottom: 0;
   @media @tablet {
     margin-bottom: 0;
@@ -267,15 +294,19 @@ label {
 .dont-miss {
   .display-flex;
   .flex-wrap(wrap);
+  max-width: 620px;
   margin: auto;
   margin-bottom: 20px;
-  max-width: 1200px;
 
   .story {
     .flex(0 0 25%);
 
+    @media @tablet {
+      .flex(1 0 50%);
+    }
+
     @media @mobile {
-      .flex(1 1 50%)
+      .flex(1 0 100%)
     }
   }
   .padded {
@@ -299,10 +330,8 @@ label {
 }
 
 .thin-div {
-  max-width: 1200px;
   border-bottom: 1px solid @df-light-gray;
-  margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 
   .center {
     position: relative;
@@ -349,7 +378,7 @@ nav.top-bar {
 
 header {
   text-align: center;
-  padding: 27px 5px 5px;
+  padding: 0px 5px 5px;
   margin: 0 auto;
   max-width: 840px;
 
@@ -434,9 +463,6 @@ footer {
 
 .hint{
   margin-right:15px;
-  .fa {
-    padding-right: 20px;
-  }
   position: relative;
   &:hover {
     background: darken(@df-blue, 10%);
@@ -447,6 +473,18 @@ footer {
   }
   background: @df-blue;
   cursor: pointer;
+
+  &.mobile {
+    display: none;
+    margin: 8px auto;
+    @media @mobile {
+      display: block;
+    }
+  }
+
+  @media @mobile {
+    display: none;
+  }
 }
 
 .submit, .next {
@@ -465,10 +503,16 @@ footer {
   .option {
     .flex(0 0 50%);
     padding: 0 10px;
+    padding-bottom: 15px;
+    @media @mobile {
+      margin: 0;
+      padding: 0;
+    }
   }
   .flex-wrap(wrap);
   margin-top: 10px;
   margin-bottom: 10px;
+
 }
 
 .button-box {
@@ -484,12 +528,10 @@ footer {
   width: 100px;
   display: inline-block;
   padding: 10px;
+  vertical-align: top;
 }
 
-.ad {
-  text-align: center;
-
-  &.top {
-    margin-top: 20px;
-  }
+.result {
+  font-size: 25px;
+  font-weight: bold;
 }
