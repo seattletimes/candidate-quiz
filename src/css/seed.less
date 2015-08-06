@@ -39,6 +39,10 @@ body {
 
 .ad {
   text-align: center;
+
+  &.top {
+    padding-top: 20px;
+  }
 }
 
 .title {
@@ -82,7 +86,7 @@ body {
   .question-title {
     padding: 20px 0;
     font-weight: bold;
-    font-size:20px;
+    font-size: 22px;
     text-transform: uppercase;
     @media @mobile {
       font-size: 20px;
@@ -159,7 +163,7 @@ body {
     }
   }
   .highlight {
-    color: red;
+    color: #e12329;
     font-size: 30px;
     @media @mobile {
       padding-top: 20px;
@@ -225,7 +229,9 @@ button {
   transition: background 0.2s linear;
 
   .fa {
-    padding-right: 12px;
+    &.padded {
+      padding-right: 6px;
+    }
   }
 
   @media @mobile {
@@ -294,7 +300,8 @@ label {
 .dont-miss {
   .display-flex;
   .flex-wrap(wrap);
-  max-width: 620px;
+  font-size: 18px;
+  max-width: 840px;
   margin: auto;
   margin-bottom: 20px;
 
@@ -303,10 +310,6 @@ label {
 
     @media @tablet {
       .flex(1 0 50%);
-    }
-
-    @media @mobile {
-      .flex(1 0 100%)
     }
   }
   .padded {
