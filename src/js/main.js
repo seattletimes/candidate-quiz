@@ -78,8 +78,7 @@ $(".quiz-container").on("click", ".submit", function() {
   answerData.summary = quizData[id].summary;
   answerData.name = quizData[id].name;
   answerData.storyurl = quizData[id].storyurl;
-  track("interactive", "pronunciation-quiz", "question-" + id);
-  track("interactive", "pronunciation-quiz", "correctness-" + correct);
+  track("interactive", "candidate-quiz", (correct ? "correct-" : "wrong-") + id);
 
   $(".question-box").html(ich.resultTemplate(answerData));
   $(".index").html(id + " of " + Object.keys(quizData).length);
@@ -96,7 +95,7 @@ var calculateResult = function() {
     var result = resultsData[index];
     //move on if we don't match this category
     if (score < result.min * 1 || score > result.max * 1) continue;
-    
+
     result.score = score;
     // display result
     result.score = score;
@@ -109,6 +108,7 @@ var calculateResult = function() {
     }
 
     result.total = total;
+    track("interactive", "candidate-quiz", "total-" + total);
     result.rows = rows;
     var nameSort = (a, b) => {
       a = a.name.split(" ").pop();
