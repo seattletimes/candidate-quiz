@@ -1,26 +1,26 @@
 [
   {
     "title": "Politics expert",
-    "min": "16",
-    "max": "100",
+    "min": 16,
+    "max": 100,
     "description": "Next thing we know, YOU'LL be running for president."
   },
   {
     "title": "Sometime politics reader",
-    "min": "11",
-    "max": "15",
+    "min": 11,
+    "max": 15,
     "description": "You're clearly paying attention, but you're no DC insider."
   },
   {
     "title": "Political novice",
-    "min": "6",
-    "max": "10",
+    "min": 6,
+    "max": 10,
     "description": "Maybe you've been paying more attention to Seattle's Capitol Hill than to DC's."
   },
   {
     "title": "Civics-class dropout",
-    "min": "0",
-    "max": "5",
+    "min": 0,
+    "max": 5,
     "description": "You might need to head back to civics class."
   }
 ]

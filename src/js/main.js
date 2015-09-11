@@ -74,10 +74,12 @@ $(".quiz-container").on("click", ".submit", function() {
     score += 1;
     answerData.hooray = true;
   }
-  answerData.image = quizData[id].finalImage;
-  answerData.summary = quizData[id].summary;
-  answerData.name = quizData[id].name;
-  answerData.storyurl = quizData[id].storyurl;
+  var q = quizData[id];
+  answerData.image = q.finalImage;
+  answerData.summary = q.summary;
+  answerData.name = q.name;
+  answerData.storyurl = q.storyurl;
+  answerData.droppedout = !!q.droppedOut;
   track("interactive", "candidate-quiz", (correct ? "correct-" : "wrong-") + id);
 
   $(".question-box").html(ich.resultTemplate(answerData));

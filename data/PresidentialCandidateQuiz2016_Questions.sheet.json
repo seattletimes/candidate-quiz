@@ -1,7 +1,7 @@
 [
   {
-    "id": "1",
-    "title": "1",
+    "id": 1,
+    "title": 1,
     "question": "Let’s start with an easy one: I’m a former first lady, a former U.S. senator, a former secretary of state. You know my husband; you know me. I’m:",
     "hintimage": "./assets/ClintonSilo.jpg",
     "image": "./assets/ClintonBlue.jpg",
@@ -10,11 +10,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/ap-sources-middle-class-economics-a-focus-of-clintons-bid/",
     "party": "D",
     "name": "Hillary Rodham Clinton",
-    "otherpossiblenameoptions": "Lindsey Graham, Carly Fiorina, Chris Christie"
+    "droppedout": ""
   },
   {
-    "id": "2",
-    "title": "2",
+    "id": 2,
+    "title": 2,
     "question": "Here’s another softball: My dad was president. My brother was president. I'm running for president. But, “It’s nobody’s turn,” I say. I’m running as my own man. And I am:",
     "hintimage": "./assets/BushSilo.jpg",
     "image": "./assets/BushRed.jpg",
@@ -23,11 +23,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/jeb-bush-set-for-16-race-campaign-logo-omits-bush-surname/",
     "party": "R",
     "name": "Jeb Bush",
-    "otherpossiblenameoptions": "Scott Walker, Rand Paul, Rick Perry"
+    "droppedout": ""
   },
   {
-    "id": "3",
-    "title": "3",
+    "id": 3,
+    "title": 3,
     "question": "Who better to talk about me than I: “I’m like, a really smart person.” Despite calling Mexican immigrants rapists, “I think I'll win the Hispanic vote.” And, “I'm worth MUCH more than $10 billion.” Yes, I'm the one, the only:",
     "hintimage": "./assets/TrumpSilo.jpg",
     "image": "./assets/TrumpRed.jpg",
@@ -36,11 +36,11 @@
     "storyurl": "www.seattletimes.com/nation-world/donald-trump-says-he-has-no-regrets-about-16-kickoff-speech/",
     "party": "R",
     "name": "Donald Trump",
-    "otherpossiblenameoptions": "Chris Christie, Carly Fiorina, Jeb Bush"
+    "droppedout": ""
   },
   {
-    "id": "4",
-    "title": "4",
+    "id": 4,
+    "title": 4,
     "question": "I'm the brash governor of New Jersey and a former United States Attorney. Some are turned off by my combative style, but others just see me as a straight shooter. I am:",
     "hintimage": "./assets/ChristieSilo.jpg",
     "image": "./assets/ChristieRed.jpg",
@@ -49,11 +49,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/christie-back-at-high-school-to-announce-2016-run/",
     "party": "R",
     "name": "Chris Christie",
-    "otherpossiblenameoptions": "Scott Walker, Donald Trump, Jim Gilmore"
+    "droppedout": ""
   },
   {
-    "id": "5",
-    "title": "5",
+    "id": 5,
+    "title": 5,
     "question": "I ran for the GOP nomination in 2012 – and won 11 states, starting with Iowa, where I visited all 99 counties in my pickup truck. I’m known as a “conservative culture warrior” on issues like gay marriage and abortion. I’m:",
     "hintimage": "./assets/SantorumSilo.jpg",
     "image": "./assets/SantorumRed.jpg",
@@ -62,11 +62,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/rick-santorum-faces-steep-climb-in-second-white-house-run/",
     "party": "R",
     "name": "Rick Santorum",
-    "otherpossiblenameoptions": "Scott Walker, Ted Cruz, Rick Perry"
+    "droppedout": ""
   },
   {
-    "id": "6",
-    "title": "6",
+    "id": 6,
+    "title": 6,
     "question": "I was governor of Arkansas before running for president in 2008 and landing hosting gigs on Fox News and talk radio. I'm hoping to win more than just the Iowa caucuses this time around. Oh, and Chuck Norris is a pal of mine. I am:",
     "hintimage": "./assets/HuckabeeSilo.jpg",
     "image": "./assets/HuckabeeRed.jpg",
@@ -75,11 +75,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/in-arkansas-huckabee-poised-to-launch-2nd-white-house-bid/",
     "party": "R",
     "name": "Mike Huckabee",
-    "otherpossiblenameoptions": "Bobby Jindal, Scott Walker, Carly Fiorina"
+    "droppedout": ""
   },
   {
-    "id": "7",
-    "title": "7",
+    "id": 7,
+    "title": 7,
     "question": "I’m the former governor of Texas. I once shot a coyote while jogging – that’s right, I jog with a gun. I ran for president in 2012. This time around, I’m wearing glasses. I just challenged Donald Trump to a pull-up contest. I am:",
     "hintimage": "./assets/PerrySilo.jpg",
     "image": "./assets/PerryRed.jpg",
@@ -88,11 +88,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/can-perry-stand-out-in-2016-without-his-signature-swagger/",
     "party": "R",
     "name": "Rick Perry",
-    "otherpossiblenameoptions": "Jim Webb, Ted Cruz, Jeb Bush"
+    "droppedout": "x"
   },
   {
-    "id": "8",
-    "title": "8",
+    "id": 8,
+    "title": 8,
     "question": "I'm a first-term U.S. senator from Kentucky. My dad ran for president in 2008 and 2012. He's a libertarian, and I lean that way as well, advocating for smaller government and a more hands-off foreign policy. I am:",
     "hintimage": "./assets/PaulSilo.jpg",
     "image": "./assets/PaulRed.jpg",
@@ -101,11 +101,11 @@
     "storyurl": "http://www.seattletimes.com/seattle-news/politics/rand-paul-ready-to-join-2016-presidential-campaign/",
     "party": "R",
     "name": "Rand Paul",
-    "otherpossiblenameoptions": "Jeb Bush, Rick Santorum, Rick Perry"
+    "droppedout": ""
   },
   {
-    "id": "9",
-    "title": "9",
+    "id": 9,
+    "title": 9,
     "question": "I'm a freshman U.S. senator from Texas and former Supreme Court clerk whose efforts to block funding for the Affordable Care Act led to a government shutdown in 2013. I was the first person to formally declare my candidacy, all the way back in March. I am:",
     "hintimage": "./assets/CruzSilo.jpg",
     "image": "./assets/CruzRed.jpg",
@@ -114,11 +114,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/cruz-launches-campaign-at-worlds-largest-christian-college/",
     "party": "R",
     "name": "Ted Cruz",
-    "otherpossiblenameoptions": "Rick Perry, Jeb Bush, Marco Rubio"
+    "droppedout": ""
   },
   {
-    "id": "10",
-    "title": "10",
+    "id": 10,
+    "title": 10,
     "question": "I've been governor of Wisconsin since 2011. In that time, I've skyrocketed to national prominence by limiting collective-bargaining rights for public employees and then surviving a recall election. I am:",
     "hintimage": "./assets/WalkerSilo.jpg",
     "image": "./assets/WalkerRed.jpg",
@@ -127,11 +127,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/wisconsin-gov-scott-walker-entering-2016-presidential-race/",
     "party": "R",
     "name": "Scott Walker",
-    "otherpossiblenameoptions": "Marco Rubio, Bobby Jindal, Lincoln Chafee"
+    "droppedout": ""
   },
   {
-    "id": "11",
-    "title": "11",
+    "id": 11,
+    "title": 11,
     "question": "I am the sitting governor of Louisiana. I’m just 44 years old. You’ve probably seen me on TV during hurricane season. My first name is actually Piyush, but you can call me:",
     "hintimage": "./assets/JindalSilo.jpg",
     "image": "./assets/JindalRed.jpg",
@@ -140,11 +140,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/louisiana-gov-jindal-sets-up-2016-campaign-names-staff/",
     "party": "R",
     "name": "Bobby Jindal",
-    "otherpossiblenameoptions": "Carly Fiorina, Martin O'Malley, Marco Rubio"
+    "droppedout": ""
   },
   {
-    "id": "12",
-    "title": "12",
+    "id": 12,
+    "title": 12,
     "question": "I'm running as a Democrat, but I've spent most of my political career as an independent socialist while representing Vermont in the House and now the Senate. I am:",
     "hintimage": "./assets/SandersSilo.jpg",
     "image": "./assets/SandersBlue.jpg",
@@ -153,11 +153,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/in-presidential-bid-sanders-warns-not-to-underestimate-him/",
     "party": "D",
     "name": "Bernie Sanders",
-    "otherpossiblenameoptions": "Carly Fiorina, Martin O'Malley, Lindsey Graham"
+    "droppedout": ""
   },
   {
-    "id": "13",
-    "title": "13",
+    "id": 13,
+    "title": 13,
     "question": "Though I've only been in the Senate since 2011, I'm already a national GOP darling. The child of Cuban immigrants, I speak passionately about \"restoring the American Dream ... because I've lived it myself.\" I am:",
     "hintimage": "./assets/RubioSilo.jpg",
     "image": "./assets/RubioRed.jpg",
@@ -166,11 +166,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/all-signs-point-to-white-house-bid-for-florida-sen-rubio/",
     "party": "R",
     "name": "Marco Rubio",
-    "otherpossiblenameoptions": "Ted Cruz, Bobby Jindal, Carly Fiorina"
+    "droppedout": ""
   },
   {
-    "id": "14",
-    "title": "14",
+    "id": 14,
+    "title": 14,
     "question": "I'm a former CEO of Hewlett-Packard. I lost my campaign for Senate in California in 2010, so if I make it to the White House, it'll be my first time in public office. I am:",
     "hintimage": "./assets/FiorinaSilo.jpg",
     "image": "./assets/FiorinaRed.jpg",
@@ -179,11 +179,11 @@
     "storyurl": "http://www.seattletimes.com/seattle-news/politics/fiorina-aims-to-keep-clinton-from-playing-the-gender-card/",
     "party": "R",
     "name": "Carly Fiorina",
-    "otherpossiblenameoptions": "Lindsey Graham, Lincoln Chafee, Martin O'Malley"
+    "droppedout": ""
   },
   {
-    "id": "15",
-    "title": "15",
+    "id": 15,
+    "title": 15,
     "question": "I've represented South Carolina in both the House and the Senate. Unlike more libertarian-leaning members of my party, I am hawkish on foreign policy. I also riled up some fellow Republicans by supporting immigration reform.",
     "hintimage": "./assets/GrahamSilo.jpg",
     "image": "./assets/GrahamRed.jpg",
@@ -192,11 +192,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/lindsey-graham-im-running-to-be-best-commander-in-chief/",
     "party": "R",
     "name": "Lindsey Graham",
-    "otherpossiblenameoptions": "Ben Carson, George Pataki, John Kasich"
+    "droppedout": ""
   },
   {
-    "id": "16",
-    "title": "16",
+    "id": 16,
+    "title": 16,
     "question": "I am the former governor of Maryland and mayor of Baltimore. You might know me for signing laws making some undocumented immigrants eligible for in-state tuition and for legalizing gay marriage in my state. My name is:",
     "hintimage": "./assets/OmalleySilo.jpg",
     "image": "./assets/OmalleyBlue.jpg",
@@ -205,11 +205,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/former-md-gov-omalley-jumps-into-2016-democratic-race/",
     "party": "D",
     "name": "Martin O'Malley",
-    "otherpossiblenameoptions": "Ben Carson, George Pataki, John Kasich"
+    "droppedout": ""
   },
   {
-    "id": "17",
-    "title": "17",
+    "id": 17,
+    "title": 17,
     "question": "You don’t have to be a brain surgeon to get into politics – but I happen to be one. I was the first to separate twins conjoined at the head. I’m not even president yet, but there’s already a high school named after me. I am:",
     "hintimage": "./assets/CarsonSilo.jpg",
     "image": "./assets/CarsonRed.jpg",
@@ -218,11 +218,11 @@
     "storyurl": "www.seattletimes.com/nation-world/ben-carson-famed-neurosurgeon-running-for-president-2/",
     "party": "R",
     "name": "Ben Carson",
-    "otherpossiblenameoptions": "Rick Santorum, Mike Huckabee, Jim Webb"
+    "droppedout": ""
   },
   {
-    "id": "18",
-    "title": "18",
+    "id": 18,
+    "title": 18,
     "question": "I was governor of New York until 2006, and I'm one of the more moderate Republicans in the race. I am:",
     "hintimage": "./assets/PatakiSilo.jpg",
     "image": "./assets/PatakiRed.jpg",
@@ -231,11 +231,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/former-n-y-gop-gov-pataki-running-for-president-in-2016/",
     "party": "R",
     "name": "George Pataki",
-    "otherpossiblenameoptions": "Chris Christie, Jim Webb, Martin O'Malley"
+    "droppedout": ""
   },
   {
-    "id": "19",
-    "title": "19",
+    "id": 19,
+    "title": 19,
     "question": "I’m the governor of Ohio (the big Midwestern state that is key to any presidential election). I was in the U.S. House before that, where I balanced the federal budget – no kidding! I’ve also hosted a show on Fox News. I’m:",
     "hintimage": "./assets/KasichSilo.jpg",
     "image": "./assets/KasichRed.jpg",
@@ -244,11 +244,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/ohio-gov-kasich-is-16th-notable-entry-into-gop-race/",
     "party": "R",
     "name": "John Kasich",
-    "otherpossiblenameoptions": "Martin O'Malley, Lindsey Graham, Ben Carson"
+    "droppedout": ""
   },
   {
-    "id": "20",
-    "title": "20",
+    "id": 20,
+    "title": 20,
     "question": "I was a highly decorated Marine officer in Vietnam. Later, I was the Navy secretary, an assistant defense secretary and a U.S. senator from Virginia. I’m from a military family, but I famously opposed the Iraq war. I am:",
     "hintimage": "./assets/WebbSilo.jpg",
     "image": "./assets/WebbBlue.jpg",
@@ -257,11 +257,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/former-virginia-sen-jim-webb-to-run-for-president/",
     "party": "D",
     "name": "Jim Webb",
-    "otherpossiblenameoptions": "Scott Walker, George Pataki, John Kasich"
+    "droppedout": ""
   },
   {
-    "id": "21",
-    "title": "21",
+    "id": 21,
+    "title": 21,
     "question": "I’m Rhode Island’s former governor and former U.S. senator. My dad had both those jobs, too. I used to be the Senate’s most liberal Republican. Now I’m running as a Democrat. I am:",
     "hintimage": "./assets/ChafeeSilo.jpg",
     "image": "./assets/ChafeeBlue.jpg",
@@ -270,11 +270,11 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/chafee-to-unveil-presidential-run-puzzling-longtime-allies/",
     "party": "D",
     "name": "Lincoln Chafee",
-    "otherpossiblenameoptions": "John Kasich, Rick Santorum, Ben Carson"
+    "droppedout": ""
   },
   {
-    "id": "22",
-    "title": "22",
+    "id": 22,
+    "title": 22,
     "question": "I’m a former one-term governor of Virginia and former Republican National Committee chairman. I’m the latest to enter the race, because I’m unimpressed with the other candidates. I also ran for president in 2007, so surely you remember me. Or, um, perhaps not. I’m:",
     "hintimage": "./assets/GilmoreSilo.jpg",
     "image": "./assets/GilmoreRed.jpg",
@@ -283,6 +283,6 @@
     "storyurl": "http://www.seattletimes.com/nation-world/former-virginia-gov-jim-gilmore-plans-presidential-run/",
     "party": "R",
     "name": "Jim Gilmore",
-    "otherpossiblenameoptions": "Ron Paul, Jim Webb, Rick Santorum"
+    "droppedout": ""
   }
 ]

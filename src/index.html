@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <%= t.include("partials/_adHead.html") %>
   </head>
   <body>
@@ -61,7 +61,7 @@
       <%
         var quizData = {};
         var rows = [];
-        json.CandidateQuiz2015_Questions.forEach(function(q) {
+        json.PresidentialCandidateQuiz2016_Questions.forEach(function(q) {
           quizData[q.id] = {
             "question": q.question,
             "image": q.image,
@@ -70,18 +70,20 @@
             "party": q.party,
             "name": q.name,
             "summary": q.summary,
-            "storyurl": q.storyurl
+            "storyurl": q.storyurl,
+            "droppedOut": q.droppedout
           };
           rows.push({
             "finalImage": q.finalimage,
             "name": q.name,
             "party": q.party,
             "summary": q.summary,
-            "storyurl": q.storyurl
+            "storyurl": q.storyurl,
+            "droppedOut": q.droppedout
           });
         });
 
-        json.CandidateQuiz2015_Answers.forEach(function(a) {
+        json.PresidentialCandidateQuiz2016_Answers.forEach(function(a) {
           var id = a.id;
           if (!quizData[id].answers) { quizData[id].answers = [] }
           var answer = {
@@ -94,8 +96,8 @@
 
       var quizData = <%= JSON.stringify(quizData) %>
       var rows = <%= JSON.stringify(rows) %>
-      var resultsData = <%= JSON.stringify(json.CandidateQuiz2015_Results) %>
-      var dontMissData = <%= JSON.stringify(json.CandidateQuiz2015_DontMiss) %>
+      var resultsData = <%= JSON.stringify(json.PresidentialCandidateQuiz2016_Results) %>
+      var dontMissData = <%= JSON.stringify(json.PresidentialCandidateQuiz2016_DontMiss) %>
     </script>
     <script src="app.js"></script>
     <% if (json.project.production) { %>

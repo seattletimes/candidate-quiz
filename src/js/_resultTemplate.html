@@ -15,12 +15,21 @@ Right!{{/hooray}}</span>
 Wrong.{{/hooray}}</span>
       </div>
 
-      <div class="candidate-info"><div class="cand-name">{{name}} </div>{{summary}}
-      {{#storyurl}}<p>
-        <a href="{{storyurl}}" target="_blank">
-          See related story <i class="fa fa-long-arrow-right"></i>
-        </a>
-      {{/storyurl}}</div>
+      <div class="candidate-info">
+        <div class="cand-name">{{name}}</div>
+        {{#droppedout}}
+        <div class="dropout">
+          <i class="fa fa-user-times"></i>
+          Dropped out
+        </div>
+        {{/droppedout}}
+        {{summary}}
+        {{#storyurl}}<p>
+          <a href="{{storyurl}}" target="_blank">
+            See related story <i class="fa fa-long-arrow-right"></i>
+          </a>
+        {{/storyurl}}
+      </div>
       <button class="next active">Next question <i class="fa fa-arrow-right"></i></button>
 
     <div>
