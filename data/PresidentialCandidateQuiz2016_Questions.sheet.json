@@ -127,7 +127,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/wisconsin-gov-scott-walker-entering-2016-presidential-race/",
     "party": "R",
     "name": "Scott Walker",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 11,
@@ -257,7 +257,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/former-virginia-sen-jim-webb-to-run-for-president/",
     "party": "D",
     "name": "Jim Webb",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 21,
