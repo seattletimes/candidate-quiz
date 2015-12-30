@@ -140,7 +140,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/louisiana-gov-jindal-sets-up-2016-campaign-names-staff/",
     "party": "R",
     "name": "Bobby Jindal",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 12,
@@ -192,7 +192,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/lindsey-graham-im-running-to-be-best-commander-in-chief/",
     "party": "R",
     "name": "Lindsey Graham",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 16,
@@ -231,7 +231,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/former-n-y-gop-gov-pataki-running-for-president-in-2016/",
     "party": "R",
     "name": "George Pataki",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 19,
