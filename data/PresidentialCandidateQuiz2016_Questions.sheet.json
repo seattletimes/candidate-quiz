@@ -75,7 +75,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/in-arkansas-huckabee-poised-to-launch-2nd-white-house-bid/",
     "party": "R",
     "name": "Mike Huckabee",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 7,
@@ -205,7 +205,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/former-md-gov-omalley-jumps-into-2016-democratic-race/",
     "party": "D",
     "name": "Martin O'Malley",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 17,
