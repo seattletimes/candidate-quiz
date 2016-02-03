@@ -62,7 +62,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/nation-politics/rick-santorum-faces-steep-climb-in-second-white-house-run/",
     "party": "R",
     "name": "Rick Santorum",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 6,
@@ -101,7 +101,7 @@
     "storyurl": "http://www.seattletimes.com/seattle-news/politics/rand-paul-ready-to-join-2016-presidential-campaign/",
     "party": "R",
     "name": "Rand Paul",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 9,
