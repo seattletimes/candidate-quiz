@@ -49,7 +49,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/christie-back-at-high-school-to-announce-2016-run/",
     "party": "R",
     "name": "Chris Christie",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 5,
@@ -179,7 +179,7 @@
     "storyurl": "http://www.seattletimes.com/seattle-news/politics/fiorina-aims-to-keep-clinton-from-playing-the-gender-card/",
     "party": "R",
     "name": "Carly Fiorina",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 15,
