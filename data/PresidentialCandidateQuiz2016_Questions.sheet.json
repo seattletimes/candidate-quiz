@@ -23,7 +23,7 @@
     "storyurl": "http://www.seattletimes.com/nation-world/jeb-bush-set-for-16-race-campaign-logo-omits-bush-surname/",
     "party": "R",
     "name": "Jeb Bush",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 3,
@@ -32,7 +32,7 @@
     "hintimage": "./assets/TrumpSilo.jpg",
     "image": "./assets/TrumpRed.jpg",
     "finalimage": "./assets/TrumpBW.jpg",
-    "summary": "He’s bombastic. He’s insulting. He’s a shameless self-promoter. Trump, 69, is a real-estate developer, hotel-casino mogul and reality-TV star. He's a “birther,” implying President Obama is foreign-born. Even after Obama released his Hawaii birth certificate, Trump insisted he’s unconvinced. Trump has denigrated Sen. John McCain’s 5½ years as a POW and torture victim and risks alienating Hispanic voters by calling Mexican illegal immigrants rapists and drug dealers. But he has endeared himself to tea partiers and older white Americans who feel angry, alienated and marginalized. He’s polling well in Iowa and New Hampshire but has offered little so far in policy ideas.  And with his billions, expect him to stay in the race as long as it suits him.",
+    "summary": "He’s bombastic. He’s insulting. He’s a shameless self-promoter. Trump, 69, is a real-estate developer, hotel-casino mogul and reality-TV star. He's a “birther,” implying President Obama is foreign-born. Even after Obama released his Hawaii birth certificate, Trump insisted he’s unconvinced. Trump has denigrated Sen. John McCain’s 5½ years as a POW and torture victim and risks alienating Hispanic voters by calling Mexican immigrants rapists and drug dealers. But he has endeared himself to older white Americans who feel angry, alienated and marginalized. He’s polling well in Iowa and New Hampshire but has offered little so far in policy ideas.  And with his billions, expect him to stay in the race as long as it suits him.",
     "storyurl": "www.seattletimes.com/nation-world/donald-trump-says-he-has-no-regrets-about-16-kickoff-speech/",
     "party": "R",
     "name": "Donald Trump",
