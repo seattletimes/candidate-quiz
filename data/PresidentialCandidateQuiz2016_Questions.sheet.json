@@ -218,7 +218,7 @@
     "storyurl": "www.seattletimes.com/nation-world/ben-carson-famed-neurosurgeon-running-for-president-2/",
     "party": "R",
     "name": "Ben Carson",
-    "droppedout": ""
+    "droppedout": "x"
   },
   {
     "id": 18,
@@ -283,6 +283,6 @@
     "storyurl": "http://www.seattletimes.com/nation-world/former-virginia-gov-jim-gilmore-plans-presidential-run/",
     "party": "R",
     "name": "Jim Gilmore",
-    "droppedout": ""
+    "droppedout": "x"
   }
 ]
